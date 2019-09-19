@@ -1,0 +1,16 @@
+PODS:
+  - TrackRecorder (0.1.0)
+
+DEPENDENCIES:
+  - TrackRecorder (from `../`)
+
+EXTERNAL SOURCES:
+  TrackRecorder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrackRecorder: 7c87c3b196c889835793c78519249a966755bfdc
+
+PODFILE CHECKSUM: c6a9d5ff5eefa0afc55eb79e6728b391d958b734
+
+COCOAPODS: 1.6.1
