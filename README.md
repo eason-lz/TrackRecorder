@@ -58,7 +58,7 @@ pod 'TrackRecorder'
 
 文件格式如图：
 
-![image-20190924192353616](/var/folders/93/6r2bj4_10v707g2n4459_q9m0000gn/T/abnerworks.Typora/image-20190924192353616.png)
+![image-confitPlist](src/configPlist.png)
 
 使用方法：
 
