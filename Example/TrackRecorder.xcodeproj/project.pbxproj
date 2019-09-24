@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BE4801B2339FEA500F300E7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE480072339FEA500F300E7 /* TableViewController.m */; };
+		1BE4801C2339FEA500F300E7 /* UIColor+ArmColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE480082339FEA500F300E7 /* UIColor+ArmColor.m */; };
+		1BE4801D2339FEA500F300E7 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE4800A2339FEA500F300E7 /* PageViewController.m */; };
+		1BE4801E2339FEA500F300E7 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE4800F2339FEA500F300E7 /* CollectionViewCell.m */; };
+		1BE4801F2339FEA500F300E7 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE480102339FEA500F300E7 /* CollectionViewController.m */; };
+		1BE480202339FEA500F300E7 /* TRDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE480112339FEA500F300E7 /* TRDataManager.m */; };
+		1BE480212339FEA500F300E7 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE480132339FEA500F300E7 /* TapViewController.m */; };
+		1BE480222339FEA500F300E7 /* TrackRecordConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BE480162339FEA500F300E7 /* TrackRecordConfig.plist */; };
+		1BE480232339FEA500F300E7 /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE480192339FEA500F300E7 /* ControlViewController.m */; };
 		5DA7D5DF90215D021401000D /* Pods_TrackRecorder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B646FD195CE23FAFC5493876 /* Pods_TrackRecorder_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,6 +47,23 @@
 
 /* Begin PBXFileReference section */
 		03817F7B4716410B828EDBA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1BE480062339FEA500F300E7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1BE480072339FEA500F300E7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		1BE480082339FEA500F300E7 /* UIColor+ArmColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ArmColor.m"; sourceTree = "<group>"; };
+		1BE4800A2339FEA500F300E7 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		1BE4800B2339FEA500F300E7 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		1BE4800D2339FEA500F300E7 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		1BE4800E2339FEA500F300E7 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		1BE4800F2339FEA500F300E7 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		1BE480102339FEA500F300E7 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		1BE480112339FEA500F300E7 /* TRDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRDataManager.m; sourceTree = "<group>"; };
+		1BE480132339FEA500F300E7 /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		1BE480142339FEA500F300E7 /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		1BE480152339FEA500F300E7 /* UIColor+ArmColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ArmColor.h"; sourceTree = "<group>"; };
+		1BE480162339FEA500F300E7 /* TrackRecordConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TrackRecordConfig.plist; sourceTree = "<group>"; };
+		1BE480182339FEA500F300E7 /* ControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
+		1BE480192339FEA500F300E7 /* ControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlViewController.m; sourceTree = "<group>"; };
+		1BE4801A2339FEA500F300E7 /* TRDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDataManager.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TrackRecorder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackRecorder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +121,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BE480042339FEA500F300E7 /* TRTest */ = {
+			isa = PBXGroup;
+			children = (
+				1BE480162339FEA500F300E7 /* TrackRecordConfig.plist */,
+				1BE4801A2339FEA500F300E7 /* TRDataManager.h */,
+				1BE480112339FEA500F300E7 /* TRDataManager.m */,
+				1BE480152339FEA500F300E7 /* UIColor+ArmColor.h */,
+				1BE480082339FEA500F300E7 /* UIColor+ArmColor.m */,
+				1BE480052339FEA500F300E7 /* TableView */,
+				1BE480092339FEA500F300E7 /* Page */,
+				1BE4800C2339FEA500F300E7 /* CollectionView */,
+				1BE480122339FEA500F300E7 /* Tap */,
+				1BE480172339FEA500F300E7 /* Control */,
+			);
+			path = TRTest;
+			sourceTree = "<group>";
+		};
+		1BE480052339FEA500F300E7 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1BE480062339FEA500F300E7 /* TableViewController.h */,
+				1BE480072339FEA500F300E7 /* TableViewController.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		1BE480092339FEA500F300E7 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1BE4800B2339FEA500F300E7 /* PageViewController.h */,
+				1BE4800A2339FEA500F300E7 /* PageViewController.m */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		1BE4800C2339FEA500F300E7 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1BE4800D2339FEA500F300E7 /* CollectionViewCell.h */,
+				1BE4800F2339FEA500F300E7 /* CollectionViewCell.m */,
+				1BE4800E2339FEA500F300E7 /* CollectionViewController.h */,
+				1BE480102339FEA500F300E7 /* CollectionViewController.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		1BE480122339FEA500F300E7 /* Tap */ = {
+			isa = PBXGroup;
+			children = (
+				1BE480142339FEA500F300E7 /* TapViewController.h */,
+				1BE480132339FEA500F300E7 /* TapViewController.m */,
+			);
+			path = Tap;
+			sourceTree = "<group>";
+		};
+		1BE480172339FEA500F300E7 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1BE480182339FEA500F300E7 /* ControlViewController.h */,
+				1BE480192339FEA500F300E7 /* ControlViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
 		4257CC4D91A67F475E8C4F08 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +233,7 @@
 		6003F593195388D20070C39A /* Example for TrackRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				1BE480042339FEA500F300E7 /* TRTest */,
 				6003F59C195388D20070C39A /* TRAppDelegate.h */,
 				6003F59D195388D20070C39A /* TRAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -277,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				1BE480222339FEA500F300E7 /* TrackRecordConfig.plist in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -367,9 +459,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE480202339FEA500F300E7 /* TRDataManager.m in Sources */,
+				1BE4801F2339FEA500F300E7 /* CollectionViewController.m in Sources */,
 				6003F59E195388D20070C39A /* TRAppDelegate.m in Sources */,
+				1BE480232339FEA500F300E7 /* ControlViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* TRViewController.m in Sources */,
+				1BE4801C2339FEA500F300E7 /* UIColor+ArmColor.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1BE480212339FEA500F300E7 /* TapViewController.m in Sources */,
+				1BE4801B2339FEA500F300E7 /* TableViewController.m in Sources */,
+				1BE4801E2339FEA500F300E7 /* CollectionViewCell.m in Sources */,
+				1BE4801D2339FEA500F300E7 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

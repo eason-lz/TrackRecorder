@@ -7,12 +7,23 @@
 //
 
 #import "TRAppDelegate.h"
+#import "TRDataManager.h"
+#import "TRViewController.h"
 
 @implementation TRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // 开启埋点
+    [[TRDataManager sharedInstance] addProtocol];
+    
+    TRViewController *vc = [[TRViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window = [[UIWindow alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = nav;
     return YES;
 }
 

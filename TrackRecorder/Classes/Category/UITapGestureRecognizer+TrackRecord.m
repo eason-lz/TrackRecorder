@@ -3,7 +3,7 @@
 //  trtest
 //
 //  Created by eason on 2019/9/3.
-//  Copyright © 2019 普惠. All rights reserved.
+//  Copyright © 2019 tr. All rights reserved.
 //
 
 #import "UITapGestureRecognizer+TrackRecord.h"
@@ -35,20 +35,6 @@
             [[TrackRecordManager sharedInstance].delegate TrackRecordClickWithDictionary:dic];
         }
     }
-    /*
-    NSArray *itemArray = [TrackRecordManager sharedInstance].configDic[@"TapEvents"][targetName];
-    if (itemArray.count > 0) {
-        for (int i = 0; i < itemArray.count; i ++) {
-            NSDictionary *dic = itemArray[i];
-            if ([dic[@"view_tag"] integerValue] == tag) {
-                // 需要埋点，发送相应数据
-                if ([[TrackRecordManager sharedInstance].delegate respondsToSelector:@selector(TrackRecordClickWithDictionary:)]) {
-                    [[TrackRecordManager sharedInstance].delegate TrackRecordClickWithDictionary:dic];
-                }
-            }
-        }
-    }
-     */
 }
 
 @end

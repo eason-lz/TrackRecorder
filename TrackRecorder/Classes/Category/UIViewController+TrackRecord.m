@@ -3,7 +3,7 @@
 //  TrackRecord
 //
 //  Created by eason on 2019/8/29.
-//  Copyright © 2019 普惠. All rights reserved.
+//  Copyright © 2019 tr. All rights reserved.
 //
 
 #import "UIViewController+TrackRecord.h"

@@ -3,7 +3,7 @@
 //  trtest
 //
 //  Created by eason on 2019/9/4.
-//  Copyright © 2019 普惠. All rights reserved.
+//  Copyright © 2019 tr. All rights reserved.
 //
 
 #import "UICollectionView+TrackRecord.h"
@@ -38,20 +38,6 @@
             [[TrackRecordManager sharedInstance].delegate TrackRecordClickWithDictionary:dic];
         }
     }
-    /*
-    NSArray *itemArray = [TrackRecordManager sharedInstance].configDic[@"CollectionViewEvents"][targetName];
-    if (itemArray.count > 0) {
-        for (int i = 0; i < itemArray.count; i ++) {
-            NSDictionary *dic = itemArray[i];
-            if ([dic[@"index"] isEqualToString:[NSString stringWithFormat:@"%ld",(long)indexPath.row]]) {
-                // 需要埋点
-                if ([[TrackRecordManager sharedInstance].delegate respondsToSelector:@selector(TrackRecordClickWithDictionary:)]) {
-                    [[TrackRecordManager sharedInstance].delegate TrackRecordClickWithDictionary:dic];
-                }
-            }
-        }
-    }
-     */
 }
 
 @end

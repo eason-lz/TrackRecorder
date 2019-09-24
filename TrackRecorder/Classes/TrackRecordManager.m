@@ -3,7 +3,7 @@
 //  TrackRecord
 //
 //  Created by eason on 2019/8/29.
-//  Copyright © 2019 普惠. All rights reserved.
+//  Copyright © 2019 tr. All rights reserved.
 //
 
 
@@ -61,8 +61,6 @@
     // 将替换的方法往代理类中添加
     BOOL didAddMethod = class_addMethod(delegateclass, replaceselector, replaceMethodIMP, method_getTypeEncoding(replaceMethod));
     if (didAddMethod) {
-        // 添加成功
-        NSLog(@"class_addMethod succeed -->(%@)", NSStringFromSelector(replaceselector));
         // 获取新方法在代理类中的地址
         Method newMethod = class_getInstanceMethod(delegateclass, replaceselector);
         // 交换原方法和自定义方法

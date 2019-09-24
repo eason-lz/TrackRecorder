@@ -3,7 +3,7 @@
 //  trtest
 //
 //  Created by eason on 2019/9/3.
-//  Copyright © 2019 普惠. All rights reserved.
+//  Copyright © 2019 tr. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,8 +1,8 @@
 //
-//  UITableView+TrackRecord.h
-//  trtest
+//  CollectionViewCell.h
+//  TrackRecorderTest
 //
-//  Created by eason on 2019/9/4.
+//  Created by eason on 2019/9/24.
 //  Copyright © 2019 tr. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UITableView (TrackRecord)
+@interface CollectionViewCell : UICollectionViewCell
 
 @end
 
