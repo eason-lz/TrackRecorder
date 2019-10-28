@@ -1,5 +1,5 @@
 framework module TrackRecorder {
-  umbrella header "TrackRecorder.h"
+  umbrella header "TrackRecorder-umbrella.h"
 
   export *
   module * { export * }

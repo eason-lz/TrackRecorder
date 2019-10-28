@@ -1,5 +1,5 @@
 PODS:
-  - TrackRecorder (0.1.0)
+  - TrackRecorder (0.1.1)
 
 DEPENDENCIES:
   - TrackRecorder (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TrackRecorder: 7c87c3b196c889835793c78519249a966755bfdc
+  TrackRecorder: fc421d81b93d9fd5d73a0c0d333134b288017715
 
 PODFILE CHECKSUM: c6a9d5ff5eefa0afc55eb79e6728b391d958b734
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4

@@ -70,4 +70,23 @@
         method_exchangeImplementations(originalMethod, replaceMethod);
     }
 }
+
+// 获取当前时间
+- (NSString *)getCurrentTime {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
+    NSDate *datenow = [NSDate date];
+    NSString *currentTimeString = [formatter stringFromDate:datenow];
+    return currentTimeString;
+}
+
+// 计算时长
+- (NSString *)intervalStarTime:(NSString *)starTime andEndTime:(NSString *)endTime {
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
+    NSDate* startDate = [formatter dateFromString:starTime];
+    NSDate* endDate = [formatter dateFromString:endTime];
+    NSTimeInterval time = [endDate timeIntervalSinceDate:startDate];
+    return [NSString stringWithFormat:@"%d", (int)time];
+}
 @end

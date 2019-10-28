@@ -32,7 +32,7 @@
     
     // 交换后的方法
     NSString *targetName = NSStringFromClass([[[TrackRecordManager sharedInstance] getViewControllerWithTarget:tableView] class]);
-    NSDictionary *dic = [TrackRecordManager sharedInstance].configDic[@"TableViewEvents"][targetName][[NSString stringWithFormat:@"%ld",indexPath.section]][[NSString stringWithFormat:@"%ld",indexPath.row]];
+    NSDictionary *dic = [TrackRecordManager sharedInstance].configDic[@"TableViewEvents"][targetName][[NSString stringWithFormat:@"%ld",(long)indexPath.section]][[NSString stringWithFormat:@"%ld",(long)indexPath.row]];
     if (dic) {
         // 需要埋点
         if ([[TrackRecordManager sharedInstance].delegate respondsToSelector:@selector(TrackRecordClickWithDictionary:)]) {

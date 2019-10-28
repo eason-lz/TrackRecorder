@@ -37,6 +37,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 添加方法并交换
 - (void)addAndExangeMethodWithDelegateClass:(Class)delegateclass originalSelector:(SEL)originalselector originalClass:(Class)originalclass replaceSelector:(SEL)replaceselector;
+
+// 获取当前时间
+- (NSString *)getCurrentTime;
+
+// 计算时长
+- (NSString *)intervalStarTime:(NSString *)starTime andEndTime:(NSString *)endTime;
+
 @end
 
 NS_ASSUME_NONNULL_END

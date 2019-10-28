@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrackRecorder'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '一个简单可用的无侵入埋点sdk'
 
 

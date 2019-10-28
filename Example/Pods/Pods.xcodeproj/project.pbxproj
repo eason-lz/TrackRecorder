@@ -7,225 +7,224 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		096896A5A33CE3D2F64D64AB3C6534C6 /* UIControl+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = BA13AE81F46413A83C9A80FB7BF188FD /* UIControl+TrackRecord.m */; };
-		09DAA56F8B4F166537A386CF6A7FCA5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		15F8F58845C63585290F14A89C3A82B3 /* Pods-TrackRecorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF54CBD481113160375395F6266E5BB /* Pods-TrackRecorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2814AB99C5E43C8891977636270EB25D /* TrackRecorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC0DA3AAE31AF980309316F2DA01E5 /* TrackRecorder-dummy.m */; };
-		2E652FB92E9200BB1E7265FC72327240 /* UITableView+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 298E35734AD4579ADB378837970D8CA7 /* UITableView+TrackRecord.m */; };
-		34343191A730418E23310CFE521BB451 /* UITapGestureRecognizer+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D352CD40CA6D652F97DD9A97CE2C4E /* UITapGestureRecognizer+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C2C4D6718F0FE96F534F3AFDDC36CDB /* TrackRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DAA631A85D3725E5ED9251D2FE27D7 /* TrackRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		718205684B324FC2CFBEC3E76CCC9D5B /* TrackRecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E99C153895E6C8D417C8D8954EED96 /* TrackRecordManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89A180C50088C74C856B1477EA36871E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
-		92602B7F62AE8FB62546E5BCF277BF60 /* UIViewController+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = AA273D9732DF55B23768A4CCFA768E03 /* UIViewController+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FB9022A21CD79418E7DC1754C8E3CC6 /* Pods-TrackRecorder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B109AAB5E533E4311A580383E6343288 /* Pods-TrackRecorder_Tests-dummy.m */; };
-		A3E776B292A1D70EE664930F7C65FD4F /* UIViewController+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF309FD085C5B600A3E1C76D601ED46 /* UIViewController+TrackRecord.m */; };
-		AEF888DBA34E7AFC56387F9372468FAE /* TrackRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DF42C6B5C583B85033A5C1BB50713E /* TrackRecordManager.m */; };
-		B1C07BAEDD7F3864A570982BF921F265 /* UITapGestureRecognizer+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 72833A343DF792014B2F0808CF0E5660 /* UITapGestureRecognizer+TrackRecord.m */; };
-		B2F2E286E620921BDFBF661E0404CAA8 /* UITableView+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = AE808980295FF857588BC3200E54680B /* UITableView+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6D74E4F0270D8A9BE24FC397FE59DE5 /* Pods-TrackRecorder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3D00257A3E292C186FC1550199A538 /* Pods-TrackRecorder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1CEBB89062BD8CEAA9F55A48A12BFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		E3A5729A27C6CCDACDA5D39A6A655079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		E41A12FC81ABAF1C47814B1477BB1BA6 /* UICollectionView+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2DF594899081273972FE380ADA4415 /* UICollectionView+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1B5C128BC0415D69B7F502D49D6470B /* UICollectionView+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A30A70968319B2D88415B3C376A8EE0 /* UICollectionView+TrackRecord.m */; };
-		F923D1F69D6C25B56B06873F47815D1F /* Pods-TrackRecorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AE2C8C8AEF8B3E40A6AE6C20A3B6 /* Pods-TrackRecorder_Example-dummy.m */; };
-		FD4E29050E7D40E215DD82DB79728214 /* UIControl+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED3EFB2C690441C041322ED8E200C65 /* UIControl+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19DB6A187779374FE18F31A077D131DE /* UIControl+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A24DAE91D9AD214819F608924CD5B86 /* UIControl+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209C348D620C11D9641B1BC3C3F1C76E /* UICollectionView+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D548773E86A996ECFFB2A8A03632D5C2 /* UICollectionView+TrackRecord.m */; };
+		24B055A38EFB63AE52740280086E5DCE /* Pods-TrackRecorder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 064EEDD42DFF779C47472814076AAFDA /* Pods-TrackRecorder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		251AB4AD3BFAA9DB156E47D4CD0A81D4 /* UIControl+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4588BBEF734E469A04FD4C4C47B9F8 /* UIControl+TrackRecord.m */; };
+		2B5C658A205FFD7AAAED6230C01AE92A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		2B9E3FC751E8E74B7194C4735E268FB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		3F7B5A205C33ADCD5AD37F213B0FFFFD /* Pods-TrackRecorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C4B9E57A40775A5BF605731E442D9 /* Pods-TrackRecorder_Example-dummy.m */; };
+		4A226CC0106CE669345C2A81EB925B0B /* TrackRecorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282DD0A5E5611282F8FA0A03520E58E /* TrackRecorder-dummy.m */; };
+		4E351D5FE3C50F7F598FE46460B27E63 /* UITableView+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 493A0B0187EF950E1D7F4031A6B907D4 /* UITableView+TrackRecord.m */; };
+		4F102B860F79DCF1197DB80648D04764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		589C13A3ACCFFA26A933D9FAF215006A /* UICollectionView+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = F79E59F11E0EADA86C80FF66753FDB82 /* UICollectionView+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F10EB03192EC07A68CF40E03CFFF4C0 /* UIViewController+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 947462B8165D438BB644E4B99F6B5C9C /* UIViewController+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B13B2036F57CD52D0E873141DC6CF8BB /* UITableView+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D51C584B6868A4576FB6E1A24FB2C22 /* UITableView+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B537D117CDCD8BC0FD50EBE346F80893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		C1C21C335933A2B8A5B76C8B86139C9A /* UITapGestureRecognizer+TrackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 7551C74FF9DB491CC7E6795E453201F3 /* UITapGestureRecognizer+TrackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB2690CB6695CDD68158239E2A63BA54 /* TrackRecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1490A3DFA470F057E6ED15DC958B70 /* TrackRecordManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB7DCB72C29394EAA9F7DF636FA9F82 /* Pods-TrackRecorder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2432A34721E4784BBB8FDC47C4C98B9 /* Pods-TrackRecorder_Tests-dummy.m */; };
+		E0E9347BE5337EC8D1F137BD8BD3655D /* TrackRecorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0184AD927A7C636B78B130DDBE4688 /* TrackRecorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E18907DBD682C47D7C6C16CBA3EAEB8D /* UIViewController+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B417F28BA97E96352BA6AD258D640F /* UIViewController+TrackRecord.m */; };
+		E6ADE4A02C68EA0CB3BB0ED9060A7FED /* Pods-TrackRecorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 203946E77CF90DACFF6425577BC8C85A /* Pods-TrackRecorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E92030299CD422804B7137B9A7CA32BA /* UITapGestureRecognizer+TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8522A2D17A31DC66279385358235BD28 /* UITapGestureRecognizer+TrackRecord.m */; };
+		FE13FD44BF3E2309C3A4C839F6E97187 /* TrackRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3FD9FA4127FE75B92891968C7D214 /* TrackRecordManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A0F16566C571684999148D21809DE583 /* PBXContainerItemProxy */ = {
+		A62F92F59BEF9D79557EC54B362D6503 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2139E221FA7F9A0A1EABC55CE9C61C3D;
+			remoteGlobalIDString = 1B9A14185DA058D14E41B0E5F6C2953C;
 			remoteInfo = "Pods-TrackRecorder_Example";
 		};
-		E0997B1242821BDAB63F8BB5214FA049 /* PBXContainerItemProxy */ = {
+		E59DE56CC10E4AB35E9C88902CC10A9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43C3275A0F58045D63C218B732DED2FD;
+			remoteGlobalIDString = 3268DDAFA5A865FBBDC63333C0269049;
 			remoteInfo = TrackRecorder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ED3EFB2C690441C041322ED8E200C65 /* UIControl+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+TrackRecord.h"; sourceTree = "<group>"; };
-		18BC0DA3AAE31AF980309316F2DA01E5 /* TrackRecorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrackRecorder-dummy.m"; sourceTree = "<group>"; };
-		298E35734AD4579ADB378837970D8CA7 /* UITableView+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TrackRecord.m"; sourceTree = "<group>"; };
-		2A06891D6706E30ADFFC2199DAE99C20 /* TrackRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrackRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FF54CBD481113160375395F6266E5BB /* Pods-TrackRecorder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackRecorder_Example-umbrella.h"; sourceTree = "<group>"; };
-		3A30A70968319B2D88415B3C376A8EE0 /* UICollectionView+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TrackRecord.m"; sourceTree = "<group>"; };
-		4026FCE003FF863D7FE734DF208BDCDE /* TrackRecorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrackRecorder.xcconfig; sourceTree = "<group>"; };
-		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4206DC7A0A042BBD6905D2954BAB8136 /* TrackRecorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrackRecorder-prefix.pch"; sourceTree = "<group>"; };
-		45E99C153895E6C8D417C8D8954EED96 /* TrackRecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackRecordManager.h; path = TrackRecorder/Classes/TrackRecordManager.h; sourceTree = "<group>"; };
-		4A235C3D19C49F90B92EEE1F7D0F4A8D /* Pods-TrackRecorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackRecorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E2DF594899081273972FE380ADA4415 /* UICollectionView+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TrackRecord.h"; sourceTree = "<group>"; };
-		5040F476617D70659E242ECDDB19EA2D /* Pods-TrackRecorder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackRecorder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		527A6887C157E631B2DF5DEDE7C64F0F /* Pods-TrackRecorder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackRecorder_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5AF309FD085C5B600A3E1C76D601ED46 /* UIViewController+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TrackRecord.m"; sourceTree = "<group>"; };
-		5CE32B04746C85D5FD0E4D176B359284 /* Pods-TrackRecorder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackRecorder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6A42D1D18CCCB867999185729AB8346C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6E3D00257A3E292C186FC1550199A538 /* Pods-TrackRecorder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackRecorder_Tests-umbrella.h"; sourceTree = "<group>"; };
-		71B68DB4D5EC3C71ECD6C9B8EE581F32 /* TrackRecorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrackRecorder.modulemap; sourceTree = "<group>"; };
-		72833A343DF792014B2F0808CF0E5660 /* UITapGestureRecognizer+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+TrackRecord.m"; sourceTree = "<group>"; };
-		7569CEAF57F27FC58F31949E430D1CED /* Pods-TrackRecorder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackRecorder_Tests.modulemap"; sourceTree = "<group>"; };
-		76D352CD40CA6D652F97DD9A97CE2C4E /* UITapGestureRecognizer+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+TrackRecord.h"; sourceTree = "<group>"; };
-		78D27BDE2F64C5F87781F28C59B311A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8116311114EFF8DBAED2479B663AD6D4 /* TrackRecorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TrackRecorder.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		859C9200D4D386E81B0BD3C7F70482D1 /* Pods-TrackRecorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackRecorder_Example.release.xcconfig"; sourceTree = "<group>"; };
-		919FBE663FAEB4C81AA2205B5FC5441C /* Pods-TrackRecorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackRecorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		94914AFED6141CEB0ECC55DDDC39EFD9 /* Pods-TrackRecorder_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackRecorder_Tests-Info.plist"; sourceTree = "<group>"; };
-		9CFCD58A82C272C20DAC7368FA22240A /* TrackRecorder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrackRecorder-Info.plist"; sourceTree = "<group>"; };
+		064EEDD42DFF779C47472814076AAFDA /* Pods-TrackRecorder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackRecorder_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0A5C75B38E533737D03C91C75ED258E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0B3368B89BA15D75873225D5E86BC5AD /* Pods-TrackRecorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackRecorder_Example.release.xcconfig"; sourceTree = "<group>"; };
+		16F053B60395901A8B6465D72422BC88 /* Pods-TrackRecorder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrackRecorder_Example-frameworks.sh"; sourceTree = "<group>"; };
+		18AEDF6626819C2790D77BA82B747624 /* Pods-TrackRecorder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackRecorder_Example-Info.plist"; sourceTree = "<group>"; };
+		203946E77CF90DACFF6425577BC8C85A /* Pods-TrackRecorder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackRecorder_Example-umbrella.h"; sourceTree = "<group>"; };
+		21B9667FF475C8CEB52F5A1F78BC74A4 /* Pods_TrackRecorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackRecorder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2282DD0A5E5611282F8FA0A03520E58E /* TrackRecorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrackRecorder-dummy.m"; sourceTree = "<group>"; };
+		25598E274E9008C517154DA10AD2C2F7 /* TrackRecorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TrackRecorder.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		312DD40E0AE0FDBF5A28E855438EE4E3 /* Pods-TrackRecorder_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackRecorder_Tests-Info.plist"; sourceTree = "<group>"; };
+		31710DAE35F8A62361AB1E7EAF4608A1 /* Pods-TrackRecorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackRecorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4377330FC9E6EAB2303B5C20B488D48B /* TrackRecorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrackRecorder.xcconfig; sourceTree = "<group>"; };
+		493A0B0187EF950E1D7F4031A6B907D4 /* UITableView+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TrackRecord.m"; sourceTree = "<group>"; };
+		4D1490A3DFA470F057E6ED15DC958B70 /* TrackRecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackRecordManager.h; path = TrackRecorder/Classes/TrackRecordManager.h; sourceTree = "<group>"; };
+		4D51C584B6868A4576FB6E1A24FB2C22 /* UITableView+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+TrackRecord.h"; sourceTree = "<group>"; };
+		5E6E5FB2D30952A89590F866B23833F5 /* Pods-TrackRecorder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackRecorder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		712A00DB2118A2238E8AB1761FFF8744 /* Pods-TrackRecorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackRecorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73B417F28BA97E96352BA6AD258D640F /* UIViewController+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TrackRecord.m"; sourceTree = "<group>"; };
+		7551C74FF9DB491CC7E6795E453201F3 /* UITapGestureRecognizer+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+TrackRecord.h"; sourceTree = "<group>"; };
+		7BE00E19EF18CA5BE9A021B17D0F1386 /* Pods-TrackRecorder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackRecorder_Tests.modulemap"; sourceTree = "<group>"; };
+		7DD2A646F71635950099D8F15CB7D160 /* Pods-TrackRecorder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackRecorder_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8522A2D17A31DC66279385358235BD28 /* UITapGestureRecognizer+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+TrackRecord.m"; sourceTree = "<group>"; };
+		8543131A9FC60ED642C17CAB6F6EA433 /* TrackRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrackRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87464E1998558FC7AC440AE1C9B21C7F /* Pods-TrackRecorder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackRecorder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A24DAE91D9AD214819F608924CD5B86 /* UIControl+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+TrackRecord.h"; sourceTree = "<group>"; };
+		94076A7B77B26BFBBF874A0CA3F13EA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		947462B8165D438BB644E4B99F6B5C9C /* UIViewController+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TrackRecord.h"; sourceTree = "<group>"; };
+		96E3FD9FA4127FE75B92891968C7D214 /* TrackRecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TrackRecordManager.m; path = TrackRecorder/Classes/TrackRecordManager.m; sourceTree = "<group>"; };
+		97EC0F3DC0DEBF98FD7DCBE9961E5C6B /* Pods-TrackRecorder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackRecorder_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E8155E7E7DC71C20215897C7DD4D632 /* Pods-TrackRecorder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrackRecorder_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A6A1AE2C8C8AEF8B3E40A6AE6C20A3B6 /* Pods-TrackRecorder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackRecorder_Example-dummy.m"; sourceTree = "<group>"; };
-		A9F62DAED8CA180FF69D319C38BDC560 /* Pods-TrackRecorder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackRecorder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA273D9732DF55B23768A4CCFA768E03 /* UIViewController+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TrackRecord.h"; sourceTree = "<group>"; };
-		ADF2CC24C16EBB0B1ACC99790B6113EA /* Pods-TrackRecorder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackRecorder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE808980295FF857588BC3200E54680B /* UITableView+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+TrackRecord.h"; sourceTree = "<group>"; };
-		B109AAB5E533E4311A580383E6343288 /* Pods-TrackRecorder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackRecorder_Tests-dummy.m"; sourceTree = "<group>"; };
-		B4B00DB164BBB2D209C3B0B8EE2499B2 /* Pods_TrackRecorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackRecorder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA13AE81F46413A83C9A80FB7BF188FD /* UIControl+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TrackRecord.m"; sourceTree = "<group>"; };
-		BC6DC9D7810ED2527C095BCF0ACE3077 /* Pods-TrackRecorder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackRecorder_Example-Info.plist"; sourceTree = "<group>"; };
-		E2DF42C6B5C583B85033A5C1BB50713E /* TrackRecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TrackRecordManager.m; path = TrackRecorder/Classes/TrackRecordManager.m; sourceTree = "<group>"; };
-		E9AF280BFFFDBDDFDD4DA59BC97BD1C3 /* Pods_TrackRecorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackRecorder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		ED85D8A047EBEF31C2079C6AB34C6C08 /* Pods-TrackRecorder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackRecorder_Example.modulemap"; sourceTree = "<group>"; };
-		F4DAA631A85D3725E5ED9251D2FE27D7 /* TrackRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TrackRecorder.h; sourceTree = "<group>"; };
+		A8CC19558E2D1A6F4F67E34CC919758E /* TrackRecorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrackRecorder-prefix.pch"; sourceTree = "<group>"; };
+		AB4588BBEF734E469A04FD4C4C47B9F8 /* UIControl+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TrackRecord.m"; sourceTree = "<group>"; };
+		B24E6B1FF16AC6961D2D66D4687E5B6C /* TrackRecorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrackRecorder.modulemap; sourceTree = "<group>"; };
+		BAA37F5A05F4B746273EB399AC303748 /* Pods-TrackRecorder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackRecorder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C97BB130BE87BBFF0F87F613B7BC1D64 /* Pods-TrackRecorder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackRecorder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D548773E86A996ECFFB2A8A03632D5C2 /* UICollectionView+TrackRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TrackRecord.m"; sourceTree = "<group>"; };
+		DCCA8887030B2DFEC0A0EA684A8B9670 /* TrackRecorder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrackRecorder-Info.plist"; sourceTree = "<group>"; };
+		E2432A34721E4784BBB8FDC47C4C98B9 /* Pods-TrackRecorder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackRecorder_Tests-dummy.m"; sourceTree = "<group>"; };
+		E5451F17F0B5C9CEB6188ED806DC0208 /* Pods_TrackRecorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackRecorder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5C4B9E57A40775A5BF605731E442D9 /* Pods-TrackRecorder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackRecorder_Example-dummy.m"; sourceTree = "<group>"; };
+		F79E59F11E0EADA86C80FF66753FDB82 /* UICollectionView+TrackRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TrackRecord.h"; sourceTree = "<group>"; };
+		FD0184AD927A7C636B78B130DDBE4688 /* TrackRecorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrackRecorder-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46FEBB6CF4A3D93DF6C0C7169F0E42CC /* Frameworks */ = {
+		3E739AFCE0EBC6C4428C030FD2F88B00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1CEBB89062BD8CEAA9F55A48A12BFC1 /* Foundation.framework in Frameworks */,
-				89A180C50088C74C856B1477EA36871E /* UIKit.framework in Frameworks */,
+				2B9E3FC751E8E74B7194C4735E268FB1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		805A11804FCC03B7CE4AFC73435AD9A2 /* Frameworks */ = {
+		7BAE0F91A54BF9B9B3AEE76582F0171A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A5729A27C6CCDACDA5D39A6A655079 /* Foundation.framework in Frameworks */,
+				4F102B860F79DCF1197DB80648D04764 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7287D7C0CB74E45B257664061D72EBA /* Frameworks */ = {
+		F5EC611A1B065053B1B3B4E30D5A2CB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DAA56F8B4F166537A386CF6A7FCA5B /* Foundation.framework in Frameworks */,
+				2B5C658A205FFD7AAAED6230C01AE92A /* Foundation.framework in Frameworks */,
+				B537D117CDCD8BC0FD50EBE346F80893 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1621D2F74EB834944F127C968F2B3EC3 /* Products */ = {
+		07FC6621ADBDC5572A55BA679EB44E76 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9AF280BFFFDBDDFDD4DA59BC97BD1C3 /* Pods_TrackRecorder_Example.framework */,
-				B4B00DB164BBB2D209C3B0B8EE2499B2 /* Pods_TrackRecorder_Tests.framework */,
-				2A06891D6706E30ADFFC2199DAE99C20 /* TrackRecorder.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		28E32766BFAD626790348CEE6576C1D6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				78D27BDE2F64C5F87781F28C59B311A2 /* LICENSE */,
-				6A42D1D18CCCB867999185729AB8346C /* README.md */,
-				8116311114EFF8DBAED2479B663AD6D4 /* TrackRecorder.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4D4E66E6CA759742F3950AB0325B81A9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				71B68DB4D5EC3C71ECD6C9B8EE581F32 /* TrackRecorder.modulemap */,
-				4026FCE003FF863D7FE734DF208BDCDE /* TrackRecorder.xcconfig */,
-				18BC0DA3AAE31AF980309316F2DA01E5 /* TrackRecorder-dummy.m */,
-				9CFCD58A82C272C20DAC7368FA22240A /* TrackRecorder-Info.plist */,
-				4206DC7A0A042BBD6905D2954BAB8136 /* TrackRecorder-prefix.pch */,
-				F4DAA631A85D3725E5ED9251D2FE27D7 /* TrackRecorder.h */,
+				B24E6B1FF16AC6961D2D66D4687E5B6C /* TrackRecorder.modulemap */,
+				4377330FC9E6EAB2303B5C20B488D48B /* TrackRecorder.xcconfig */,
+				2282DD0A5E5611282F8FA0A03520E58E /* TrackRecorder-dummy.m */,
+				DCCA8887030B2DFEC0A0EA684A8B9670 /* TrackRecorder-Info.plist */,
+				A8CC19558E2D1A6F4F67E34CC919758E /* TrackRecorder-prefix.pch */,
+				FD0184AD927A7C636B78B130DDBE4688 /* TrackRecorder-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TrackRecorder";
 			sourceTree = "<group>";
 		};
-		583CAD2CFD0D4EE2600807769F31B059 /* Category */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E2DF594899081273972FE380ADA4415 /* UICollectionView+TrackRecord.h */,
-				3A30A70968319B2D88415B3C376A8EE0 /* UICollectionView+TrackRecord.m */,
-				0ED3EFB2C690441C041322ED8E200C65 /* UIControl+TrackRecord.h */,
-				BA13AE81F46413A83C9A80FB7BF188FD /* UIControl+TrackRecord.m */,
-				AE808980295FF857588BC3200E54680B /* UITableView+TrackRecord.h */,
-				298E35734AD4579ADB378837970D8CA7 /* UITableView+TrackRecord.m */,
-				76D352CD40CA6D652F97DD9A97CE2C4E /* UITapGestureRecognizer+TrackRecord.h */,
-				72833A343DF792014B2F0808CF0E5660 /* UITapGestureRecognizer+TrackRecord.m */,
-				AA273D9732DF55B23768A4CCFA768E03 /* UIViewController+TrackRecord.h */,
-				5AF309FD085C5B600A3E1C76D601ED46 /* UIViewController+TrackRecord.m */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = Category;
-			path = TrackRecorder/Classes/Category;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		703166691F58402671B584E51A31D8D3 /* Targets Support Files */ = {
+		39D8F0EED1997185A83CDF672FA62B46 /* TrackRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				EB30025F2979A998799CFD8394BD0E11 /* Pods-TrackRecorder_Example */,
-				95C1B280B2BFD76A902BB6985B883590 /* Pods-TrackRecorder_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		95C1B280B2BFD76A902BB6985B883590 /* Pods-TrackRecorder_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7569CEAF57F27FC58F31949E430D1CED /* Pods-TrackRecorder_Tests.modulemap */,
-				5040F476617D70659E242ECDDB19EA2D /* Pods-TrackRecorder_Tests-acknowledgements.markdown */,
-				5CE32B04746C85D5FD0E4D176B359284 /* Pods-TrackRecorder_Tests-acknowledgements.plist */,
-				B109AAB5E533E4311A580383E6343288 /* Pods-TrackRecorder_Tests-dummy.m */,
-				94914AFED6141CEB0ECC55DDDC39EFD9 /* Pods-TrackRecorder_Tests-Info.plist */,
-				6E3D00257A3E292C186FC1550199A538 /* Pods-TrackRecorder_Tests-umbrella.h */,
-				A9F62DAED8CA180FF69D319C38BDC560 /* Pods-TrackRecorder_Tests.debug.xcconfig */,
-				527A6887C157E631B2DF5DEDE7C64F0F /* Pods-TrackRecorder_Tests.release.xcconfig */,
-			);
-			name = "Pods-TrackRecorder_Tests";
-			path = "Target Support Files/Pods-TrackRecorder_Tests";
-			sourceTree = "<group>";
-		};
-		BC0E9F07F7120F3848E699278E06CFDE /* TrackRecorder */ = {
-			isa = PBXGroup;
-			children = (
-				45E99C153895E6C8D417C8D8954EED96 /* TrackRecordManager.h */,
-				E2DF42C6B5C583B85033A5C1BB50713E /* TrackRecordManager.m */,
-				583CAD2CFD0D4EE2600807769F31B059 /* Category */,
-				28E32766BFAD626790348CEE6576C1D6 /* Pod */,
-				4D4E66E6CA759742F3950AB0325B81A9 /* Support Files */,
+				4D1490A3DFA470F057E6ED15DC958B70 /* TrackRecordManager.h */,
+				96E3FD9FA4127FE75B92891968C7D214 /* TrackRecordManager.m */,
+				D1607D580736A2BD439D91ADFF7A2C78 /* Category */,
+				88F2A6C8B7D081288637A00A02213F6E /* Pod */,
+				07FC6621ADBDC5572A55BA679EB44E76 /* Support Files */,
 			);
 			name = TrackRecorder;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		703166691F58402671B584E51A31D8D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C38BE421197F2D6AC82A58A71F66F0D /* Pods-TrackRecorder_Example */,
+				BFE1978E258C149B317CAE8CC2A512D3 /* Pods-TrackRecorder_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C38BE421197F2D6AC82A58A71F66F0D /* Pods-TrackRecorder_Example */ = {
+			isa = PBXGroup;
+			children = (
+				97EC0F3DC0DEBF98FD7DCBE9961E5C6B /* Pods-TrackRecorder_Example.modulemap */,
+				87464E1998558FC7AC440AE1C9B21C7F /* Pods-TrackRecorder_Example-acknowledgements.markdown */,
+				712A00DB2118A2238E8AB1761FFF8744 /* Pods-TrackRecorder_Example-acknowledgements.plist */,
+				EE5C4B9E57A40775A5BF605731E442D9 /* Pods-TrackRecorder_Example-dummy.m */,
+				16F053B60395901A8B6465D72422BC88 /* Pods-TrackRecorder_Example-frameworks.sh */,
+				18AEDF6626819C2790D77BA82B747624 /* Pods-TrackRecorder_Example-Info.plist */,
+				203946E77CF90DACFF6425577BC8C85A /* Pods-TrackRecorder_Example-umbrella.h */,
+				31710DAE35F8A62361AB1E7EAF4608A1 /* Pods-TrackRecorder_Example.debug.xcconfig */,
+				0B3368B89BA15D75873225D5E86BC5AD /* Pods-TrackRecorder_Example.release.xcconfig */,
+			);
+			name = "Pods-TrackRecorder_Example";
+			path = "Target Support Files/Pods-TrackRecorder_Example";
+			sourceTree = "<group>";
+		};
+		88F2A6C8B7D081288637A00A02213F6E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C75B38E533737D03C91C75ED258E8 /* LICENSE */,
+				94076A7B77B26BFBBF874A0CA3F13EA5 /* README.md */,
+				25598E274E9008C517154DA10AD2C2F7 /* TrackRecorder.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8AC45D0BF5D6810E87CBB3B40F7B1D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5451F17F0B5C9CEB6188ED806DC0208 /* Pods_TrackRecorder_Example.framework */,
+				21B9667FF475C8CEB52F5A1F78BC74A4 /* Pods_TrackRecorder_Tests.framework */,
+				8543131A9FC60ED642C17CAB6F6EA433 /* TrackRecorder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE1978E258C149B317CAE8CC2A512D3 /* Pods-TrackRecorder_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7BE00E19EF18CA5BE9A021B17D0F1386 /* Pods-TrackRecorder_Tests.modulemap */,
+				BAA37F5A05F4B746273EB399AC303748 /* Pods-TrackRecorder_Tests-acknowledgements.markdown */,
+				C97BB130BE87BBFF0F87F613B7BC1D64 /* Pods-TrackRecorder_Tests-acknowledgements.plist */,
+				E2432A34721E4784BBB8FDC47C4C98B9 /* Pods-TrackRecorder_Tests-dummy.m */,
+				312DD40E0AE0FDBF5A28E855438EE4E3 /* Pods-TrackRecorder_Tests-Info.plist */,
+				064EEDD42DFF779C47472814076AAFDA /* Pods-TrackRecorder_Tests-umbrella.h */,
+				5E6E5FB2D30952A89590F866B23833F5 /* Pods-TrackRecorder_Tests.debug.xcconfig */,
+				7DD2A646F71635950099D8F15CB7D160 /* Pods-TrackRecorder_Tests.release.xcconfig */,
+			);
+			name = "Pods-TrackRecorder_Tests";
+			path = "Target Support Files/Pods-TrackRecorder_Tests";
+			sourceTree = "<group>";
+		};
 		C38325B7D9A58352B193FD98FE3CBCF6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BC0E9F07F7120F3848E699278E06CFDE /* TrackRecorder */,
+				39D8F0EED1997185A83CDF672FA62B46 /* TrackRecorder */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -236,100 +235,101 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C38325B7D9A58352B193FD98FE3CBCF6 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				1621D2F74EB834944F127C968F2B3EC3 /* Products */,
+				8AC45D0BF5D6810E87CBB3B40F7B1D6B /* Products */,
 				703166691F58402671B584E51A31D8D3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+		D1607D580736A2BD439D91ADFF7A2C78 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
-				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+				F79E59F11E0EADA86C80FF66753FDB82 /* UICollectionView+TrackRecord.h */,
+				D548773E86A996ECFFB2A8A03632D5C2 /* UICollectionView+TrackRecord.m */,
+				8A24DAE91D9AD214819F608924CD5B86 /* UIControl+TrackRecord.h */,
+				AB4588BBEF734E469A04FD4C4C47B9F8 /* UIControl+TrackRecord.m */,
+				4D51C584B6868A4576FB6E1A24FB2C22 /* UITableView+TrackRecord.h */,
+				493A0B0187EF950E1D7F4031A6B907D4 /* UITableView+TrackRecord.m */,
+				7551C74FF9DB491CC7E6795E453201F3 /* UITapGestureRecognizer+TrackRecord.h */,
+				8522A2D17A31DC66279385358235BD28 /* UITapGestureRecognizer+TrackRecord.m */,
+				947462B8165D438BB644E4B99F6B5C9C /* UIViewController+TrackRecord.h */,
+				73B417F28BA97E96352BA6AD258D640F /* UIViewController+TrackRecord.m */,
 			);
-			name = iOS;
+			name = Category;
+			path = TrackRecorder/Classes/Category;
 			sourceTree = "<group>";
 		};
-		EB30025F2979A998799CFD8394BD0E11 /* Pods-TrackRecorder_Example */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				ED85D8A047EBEF31C2079C6AB34C6C08 /* Pods-TrackRecorder_Example.modulemap */,
-				ADF2CC24C16EBB0B1ACC99790B6113EA /* Pods-TrackRecorder_Example-acknowledgements.markdown */,
-				919FBE663FAEB4C81AA2205B5FC5441C /* Pods-TrackRecorder_Example-acknowledgements.plist */,
-				A6A1AE2C8C8AEF8B3E40A6AE6C20A3B6 /* Pods-TrackRecorder_Example-dummy.m */,
-				9E8155E7E7DC71C20215897C7DD4D632 /* Pods-TrackRecorder_Example-frameworks.sh */,
-				BC6DC9D7810ED2527C095BCF0ACE3077 /* Pods-TrackRecorder_Example-Info.plist */,
-				2FF54CBD481113160375395F6266E5BB /* Pods-TrackRecorder_Example-umbrella.h */,
-				4A235C3D19C49F90B92EEE1F7D0F4A8D /* Pods-TrackRecorder_Example.debug.xcconfig */,
-				859C9200D4D386E81B0BD3C7F70482D1 /* Pods-TrackRecorder_Example.release.xcconfig */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = "Pods-TrackRecorder_Example";
-			path = "Target Support Files/Pods-TrackRecorder_Example";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B627AA93B3D11A3BE7F6DFF0A56A214 /* Headers */ = {
+		9D17FF1DA15692AF6CB8CE390B72E2FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D74E4F0270D8A9BE24FC397FE59DE5 /* Pods-TrackRecorder_Tests-umbrella.h in Headers */,
+				E6ADE4A02C68EA0CB3BB0ED9060A7FED /* Pods-TrackRecorder_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4060D022A2895ECD70F4ACA348C5DE9F /* Headers */ = {
+		DFC2D683C698019612856743A493E5EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C2C4D6718F0FE96F534F3AFDDC36CDB /* TrackRecorder.h in Headers */,
-				718205684B324FC2CFBEC3E76CCC9D5B /* TrackRecordManager.h in Headers */,
-				E41A12FC81ABAF1C47814B1477BB1BA6 /* UICollectionView+TrackRecord.h in Headers */,
-				FD4E29050E7D40E215DD82DB79728214 /* UIControl+TrackRecord.h in Headers */,
-				B2F2E286E620921BDFBF661E0404CAA8 /* UITableView+TrackRecord.h in Headers */,
-				34343191A730418E23310CFE521BB451 /* UITapGestureRecognizer+TrackRecord.h in Headers */,
-				92602B7F62AE8FB62546E5BCF277BF60 /* UIViewController+TrackRecord.h in Headers */,
+				24B055A38EFB63AE52740280086E5DCE /* Pods-TrackRecorder_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D11A2F6B8E64DC27235FF2D877D98A4F /* Headers */ = {
+		EF606A2FA96BE9B5DCC86E3FA67EB8E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F8F58845C63585290F14A89C3A82B3 /* Pods-TrackRecorder_Example-umbrella.h in Headers */,
+				E0E9347BE5337EC8D1F137BD8BD3655D /* TrackRecorder-umbrella.h in Headers */,
+				CB2690CB6695CDD68158239E2A63BA54 /* TrackRecordManager.h in Headers */,
+				589C13A3ACCFFA26A933D9FAF215006A /* UICollectionView+TrackRecord.h in Headers */,
+				19DB6A187779374FE18F31A077D131DE /* UIControl+TrackRecord.h in Headers */,
+				B13B2036F57CD52D0E873141DC6CF8BB /* UITableView+TrackRecord.h in Headers */,
+				C1C21C335933A2B8A5B76C8B86139C9A /* UITapGestureRecognizer+TrackRecord.h in Headers */,
+				5F10EB03192EC07A68CF40E03CFFF4C0 /* UIViewController+TrackRecord.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2139E221FA7F9A0A1EABC55CE9C61C3D /* Pods-TrackRecorder_Example */ = {
+		1B9A14185DA058D14E41B0E5F6C2953C /* Pods-TrackRecorder_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70A5FD885490A39A68F1B969E18A5914 /* Build configuration list for PBXNativeTarget "Pods-TrackRecorder_Example" */;
+			buildConfigurationList = BEEE5EC99B0B081835878A985B1CE9B5 /* Build configuration list for PBXNativeTarget "Pods-TrackRecorder_Example" */;
 			buildPhases = (
-				D11A2F6B8E64DC27235FF2D877D98A4F /* Headers */,
-				56B5C2C5ED4CD884D9DDBFED80CA98C7 /* Sources */,
-				805A11804FCC03B7CE4AFC73435AD9A2 /* Frameworks */,
-				BF3A2D0DB7E13F53FF8F6AB50F23BABF /* Resources */,
+				9D17FF1DA15692AF6CB8CE390B72E2FF /* Headers */,
+				1D98986F584AD7059FA223CACA494A14 /* Sources */,
+				3E739AFCE0EBC6C4428C030FD2F88B00 /* Frameworks */,
+				4C07CA460146EDD63DE3A347E9E297D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B07E1A7A450A6997B3D5A44B19C4F803 /* PBXTargetDependency */,
+				6FE524143E5431235E0F72E1F3118C4A /* PBXTargetDependency */,
 			);
 			name = "Pods-TrackRecorder_Example";
 			productName = "Pods-TrackRecorder_Example";
-			productReference = E9AF280BFFFDBDDFDD4DA59BC97BD1C3 /* Pods_TrackRecorder_Example.framework */;
+			productReference = E5451F17F0B5C9CEB6188ED806DC0208 /* Pods_TrackRecorder_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		43C3275A0F58045D63C218B732DED2FD /* TrackRecorder */ = {
+		3268DDAFA5A865FBBDC63333C0269049 /* TrackRecorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EDDC66FCAAE96040FC1DC46485CDCF2 /* Build configuration list for PBXNativeTarget "TrackRecorder" */;
+			buildConfigurationList = E81FE8D881F62971F3F756FB99C7E6A0 /* Build configuration list for PBXNativeTarget "TrackRecorder" */;
 			buildPhases = (
-				4060D022A2895ECD70F4ACA348C5DE9F /* Headers */,
-				454F67DB9C1FBEED476326492509FB1F /* Sources */,
-				46FEBB6CF4A3D93DF6C0C7169F0E42CC /* Frameworks */,
-				DED4A640C145CB84594522F8BA8D7598 /* Resources */,
+				EF606A2FA96BE9B5DCC86E3FA67EB8E9 /* Headers */,
+				DBC58E99FEE1DE3A8D903E1B7A9C851B /* Sources */,
+				F5EC611A1B065053B1B3B4E30D5A2CB5 /* Frameworks */,
+				1E06A809AC13E7A521A520D8DE926A66 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,26 +337,26 @@
 			);
 			name = TrackRecorder;
 			productName = TrackRecorder;
-			productReference = 2A06891D6706E30ADFFC2199DAE99C20 /* TrackRecorder.framework */;
+			productReference = 8543131A9FC60ED642C17CAB6F6EA433 /* TrackRecorder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D842A9EEEAC16335242178620F4B2FE9 /* Pods-TrackRecorder_Tests */ = {
+		FE244053C0E63019911C96649A526735 /* Pods-TrackRecorder_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5688B75DF26322B5DF65881F21BD424F /* Build configuration list for PBXNativeTarget "Pods-TrackRecorder_Tests" */;
+			buildConfigurationList = F3D5E17F07ABC334FC7626352C1FE93E /* Build configuration list for PBXNativeTarget "Pods-TrackRecorder_Tests" */;
 			buildPhases = (
-				3B627AA93B3D11A3BE7F6DFF0A56A214 /* Headers */,
-				D6D59E1FA3436D10EAA17D31B202E773 /* Sources */,
-				A7287D7C0CB74E45B257664061D72EBA /* Frameworks */,
-				0EA965E0E4C54195F8CF07512EEB3E47 /* Resources */,
+				DFC2D683C698019612856743A493E5EE /* Headers */,
+				4BE78B4F52281EBAC321F95B1C08076A /* Sources */,
+				7BAE0F91A54BF9B9B3AEE76582F0171A /* Frameworks */,
+				0D0CEBDDD052CA34C044AA105C8A9AAE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D42CEB20593FFBEDB67942F9E61E0A1 /* PBXTargetDependency */,
+				BD6966B4CD94F221F8B758AC7A475609 /* PBXTargetDependency */,
 			);
 			name = "Pods-TrackRecorder_Tests";
 			productName = "Pods-TrackRecorder_Tests";
-			productReference = B4B00DB164BBB2D209C3B0B8EE2499B2 /* Pods_TrackRecorder_Tests.framework */;
+			productReference = 21B9667FF475C8CEB52F5A1F78BC74A4 /* Pods_TrackRecorder_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,45 +365,44 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1030;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1621D2F74EB834944F127C968F2B3EC3 /* Products */;
+			productRefGroup = 8AC45D0BF5D6810E87CBB3B40F7B1D6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2139E221FA7F9A0A1EABC55CE9C61C3D /* Pods-TrackRecorder_Example */,
-				D842A9EEEAC16335242178620F4B2FE9 /* Pods-TrackRecorder_Tests */,
-				43C3275A0F58045D63C218B732DED2FD /* TrackRecorder */,
+				1B9A14185DA058D14E41B0E5F6C2953C /* Pods-TrackRecorder_Example */,
+				FE244053C0E63019911C96649A526735 /* Pods-TrackRecorder_Tests */,
+				3268DDAFA5A865FBBDC63333C0269049 /* TrackRecorder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0EA965E0E4C54195F8CF07512EEB3E47 /* Resources */ = {
+		0D0CEBDDD052CA34C044AA105C8A9AAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF3A2D0DB7E13F53FF8F6AB50F23BABF /* Resources */ = {
+		1E06A809AC13E7A521A520D8DE926A66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DED4A640C145CB84594522F8BA8D7598 /* Resources */ = {
+		4C07CA460146EDD63DE3A347E9E297D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,59 +412,92 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		454F67DB9C1FBEED476326492509FB1F /* Sources */ = {
+		1D98986F584AD7059FA223CACA494A14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2814AB99C5E43C8891977636270EB25D /* TrackRecorder-dummy.m in Sources */,
-				AEF888DBA34E7AFC56387F9372468FAE /* TrackRecordManager.m in Sources */,
-				F1B5C128BC0415D69B7F502D49D6470B /* UICollectionView+TrackRecord.m in Sources */,
-				096896A5A33CE3D2F64D64AB3C6534C6 /* UIControl+TrackRecord.m in Sources */,
-				2E652FB92E9200BB1E7265FC72327240 /* UITableView+TrackRecord.m in Sources */,
-				B1C07BAEDD7F3864A570982BF921F265 /* UITapGestureRecognizer+TrackRecord.m in Sources */,
-				A3E776B292A1D70EE664930F7C65FD4F /* UIViewController+TrackRecord.m in Sources */,
+				3F7B5A205C33ADCD5AD37F213B0FFFFD /* Pods-TrackRecorder_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56B5C2C5ED4CD884D9DDBFED80CA98C7 /* Sources */ = {
+		4BE78B4F52281EBAC321F95B1C08076A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F923D1F69D6C25B56B06873F47815D1F /* Pods-TrackRecorder_Example-dummy.m in Sources */,
+				DFB7DCB72C29394EAA9F7DF636FA9F82 /* Pods-TrackRecorder_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6D59E1FA3436D10EAA17D31B202E773 /* Sources */ = {
+		DBC58E99FEE1DE3A8D903E1B7A9C851B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FB9022A21CD79418E7DC1754C8E3CC6 /* Pods-TrackRecorder_Tests-dummy.m in Sources */,
+				4A226CC0106CE669345C2A81EB925B0B /* TrackRecorder-dummy.m in Sources */,
+				FE13FD44BF3E2309C3A4C839F6E97187 /* TrackRecordManager.m in Sources */,
+				209C348D620C11D9641B1BC3C3F1C76E /* UICollectionView+TrackRecord.m in Sources */,
+				251AB4AD3BFAA9DB156E47D4CD0A81D4 /* UIControl+TrackRecord.m in Sources */,
+				4E351D5FE3C50F7F598FE46460B27E63 /* UITableView+TrackRecord.m in Sources */,
+				E92030299CD422804B7137B9A7CA32BA /* UITapGestureRecognizer+TrackRecord.m in Sources */,
+				E18907DBD682C47D7C6C16CBA3EAEB8D /* UIViewController+TrackRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9D42CEB20593FFBEDB67942F9E61E0A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TrackRecorder_Example";
-			target = 2139E221FA7F9A0A1EABC55CE9C61C3D /* Pods-TrackRecorder_Example */;
-			targetProxy = A0F16566C571684999148D21809DE583 /* PBXContainerItemProxy */;
-		};
-		B07E1A7A450A6997B3D5A44B19C4F803 /* PBXTargetDependency */ = {
+		6FE524143E5431235E0F72E1F3118C4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TrackRecorder;
-			target = 43C3275A0F58045D63C218B732DED2FD /* TrackRecorder */;
-			targetProxy = E0997B1242821BDAB63F8BB5214FA049 /* PBXContainerItemProxy */;
+			target = 3268DDAFA5A865FBBDC63333C0269049 /* TrackRecorder */;
+			targetProxy = E59DE56CC10E4AB35E9C88902CC10A9D /* PBXContainerItemProxy */;
+		};
+		BD6966B4CD94F221F8B758AC7A475609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TrackRecorder_Example";
+			target = 1B9A14185DA058D14E41B0E5F6C2953C /* Pods-TrackRecorder_Example */;
+			targetProxy = A62F92F59BEF9D79557EC54B362D6503 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		1A0DFBDDAC645477307887DB986B8B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD2A646F71635950099D8F15CB7D160 /* Pods-TrackRecorder_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrackRecorder_Tests/Pods-TrackRecorder_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrackRecorder_Tests/Pods-TrackRecorder_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -516,16 +548,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		3CB31E97CB89B76BACE78F42970596E0 /* Debug */ = {
+		645FE00D61C214F075B7D037CC4F849B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9F62DAED8CA180FF69D319C38BDC560 /* Pods-TrackRecorder_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4377330FC9E6EAB2303B5C20B488D48B /* TrackRecorder.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -535,30 +567,61 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrackRecorder_Tests/Pods-TrackRecorder_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TrackRecorder/TrackRecorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrackRecorder/TrackRecorder-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrackRecorder_Tests/Pods-TrackRecorder_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/TrackRecorder/TrackRecorder.modulemap";
+				PRODUCT_MODULE_NAME = TrackRecorder;
+				PRODUCT_NAME = TrackRecorder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69C532B9E59A65DDF034B09482AF2CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4377330FC9E6EAB2303B5C20B488D48B /* TrackRecorder.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TrackRecorder/TrackRecorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrackRecorder/TrackRecorder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrackRecorder/TrackRecorder.modulemap";
+				PRODUCT_MODULE_NAME = TrackRecorder;
+				PRODUCT_NAME = TrackRecorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -614,47 +677,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		50A1210DCD7B8881309311D6BF1A4FAB /* Release */ = {
+		B25AEE48F4FD4539F4B32CF6BAA3B6C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4026FCE003FF863D7FE734DF208BDCDE /* TrackRecorder.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TrackRecorder/TrackRecorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TrackRecorder/TrackRecorder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TrackRecorder/TrackRecorder.modulemap";
-				PRODUCT_MODULE_NAME = TrackRecorder;
-				PRODUCT_NAME = TrackRecorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		70F744E43E5CDEF0028A64C1779D65A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 527A6887C157E631B2DF5DEDE7C64F0F /* Pods-TrackRecorder_Tests.release.xcconfig */;
+			baseConfigurationReference = 5E6E5FB2D30952A89590F866B23833F5 /* Pods-TrackRecorder_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -680,80 +710,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		81006C85858A83B50C52F39957FE8257 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4026FCE003FF863D7FE734DF208BDCDE /* TrackRecorder.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TrackRecorder/TrackRecorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TrackRecorder/TrackRecorder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TrackRecorder/TrackRecorder.modulemap";
-				PRODUCT_MODULE_NAME = TrackRecorder;
-				PRODUCT_NAME = TrackRecorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		92B710D07443212AAD267DD54D716B6D /* Debug */ = {
+		C726F2064EAD2B73B7F4C5B3BBA4F181 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A235C3D19C49F90B92EEE1F7D0F4A8D /* Pods-TrackRecorder_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrackRecorder_Example/Pods-TrackRecorder_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrackRecorder_Example/Pods-TrackRecorder_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9C8F7F2952EFAEE5B7D40F06BB8AB24B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 859C9200D4D386E81B0BD3C7F70482D1 /* Pods-TrackRecorder_Example.release.xcconfig */;
+			baseConfigurationReference = 0B3368B89BA15D75873225D5E86BC5AD /* Pods-TrackRecorder_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -784,6 +748,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		ECE23F9306D9CC18FDF50D38A0D7332F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31710DAE35F8A62361AB1E7EAF4608A1 /* Pods-TrackRecorder_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrackRecorder_Example/Pods-TrackRecorder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrackRecorder_Example/Pods-TrackRecorder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -791,35 +788,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5688B75DF26322B5DF65881F21BD424F /* Build configuration list for PBXNativeTarget "Pods-TrackRecorder_Tests" */ = {
+		BEEE5EC99B0B081835878A985B1CE9B5 /* Build configuration list for PBXNativeTarget "Pods-TrackRecorder_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CB31E97CB89B76BACE78F42970596E0 /* Debug */,
-				70F744E43E5CDEF0028A64C1779D65A6 /* Release */,
+				ECE23F9306D9CC18FDF50D38A0D7332F /* Debug */,
+				C726F2064EAD2B73B7F4C5B3BBA4F181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EDDC66FCAAE96040FC1DC46485CDCF2 /* Build configuration list for PBXNativeTarget "TrackRecorder" */ = {
+		E81FE8D881F62971F3F756FB99C7E6A0 /* Build configuration list for PBXNativeTarget "TrackRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81006C85858A83B50C52F39957FE8257 /* Debug */,
-				50A1210DCD7B8881309311D6BF1A4FAB /* Release */,
+				69C532B9E59A65DDF034B09482AF2CA0 /* Debug */,
+				645FE00D61C214F075B7D037CC4F849B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70A5FD885490A39A68F1B969E18A5914 /* Build configuration list for PBXNativeTarget "Pods-TrackRecorder_Example" */ = {
+		F3D5E17F07ABC334FC7626352C1FE93E /* Build configuration list for PBXNativeTarget "Pods-TrackRecorder_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B710D07443212AAD267DD54D716B6D /* Debug */,
-				9C8F7F2952EFAEE5B7D40F06BB8AB24B /* Release */,
+				B25AEE48F4FD4539F4B32CF6BAA3B6C0 /* Debug */,
+				1A0DFBDDAC645477307887DB986B8B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
